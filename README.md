@@ -1,4 +1,4 @@
-``` # README.md — SIGOC (todo en un bloque para copiar y pegar)
+# README.md — SIGOC 
 
 ```markdown
 # SIGOC — Sistema de Gestión y Reporte de Operación Comercial de Conciertos
@@ -46,7 +46,7 @@ Diseñar y codificar en Java un sistema de gestión y reporte que permita admini
 
 SIGOC adopta el patrón **MVP**, que separa la lógica de negocio, la interfaz de consola y la coordinación entre ambas. Esto facilita las pruebas de escritorio, la reutilización y el mantenimiento.
 
-```
+``` text
 ┌──────────────────────────────────────────────────────────────┐
 │                          RUNNER (main)                       │
 │                     instancia el Presenter                   │
@@ -185,8 +185,8 @@ java Runner
 ### 10. Compilación y ejecución (versión en un solo archivo)
 
 ```bash
-javac SIGOC.java
-java SIGOC
+javac Runner.java
+java Runner
 ```
 
 > Si usas un IDE (IntelliJ, Eclipse, NetBeans), basta con abrir el proyecto y ejecutar la clase `Runner` (o `SIGOC` en la versión unificada).
@@ -261,11 +261,5 @@ java SIGOC
 ## 16. Licencia y uso académico
 
 Proyecto desarrollado con fines **exclusivamente académicos** para la asignatura *Algoritmos y Programación I*. Los autores autorizan su uso como referencia educativa citando la fuente.
-
----
-
-> **SIGOC** — *"Detrás del espectáculo, la coordinación también se programa."*
-```
-
----
-```
+>**SIGOC** — *"Detrás del espectáculo, la coordinación también se programa."*
+´´´
