@@ -5,8 +5,8 @@ Description : MVP version 1.0
 
 
 public class Runner { 
-public static void main(String [] args) {
-    Present object = new Present();
-    object.init();
-}
+    public static void main(String [] args) {
+        Present object = new Present();
+        object.init();
+    }
 }

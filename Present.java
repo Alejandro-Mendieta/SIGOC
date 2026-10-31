@@ -82,7 +82,7 @@ class Present {
         String documento = objectIoManager.requestInfo("Documento: ");
         String nombre = objectIoManager.requestInfo("Nombre: ");
         String telefono = objectIoManager.requestInfo("Telefono: ");
-        String fechaStr = objectIoManager.requestInfo("Fecha nacimiento (yyyy-mm-dd): ");
+        String fechaStr = objectIoManager.requestInfo("Fecha nacimiento (year-month-day): ");
         try {
             LocalDate fecha = LocalDate.parse(fechaStr, DateTimeFormatter.ISO_LOCAL_DATE);
             Cliente cliente = new Cliente(documento, nombre, telefono, fecha);
@@ -92,7 +92,7 @@ class Present {
                 objectIoManager.showInfo("No se pudo registrar (documento duplicado o cupo lleno).\n");
             }
         } catch (Exception e) {
-            objectIoManager.showInfo("Fecha invalida. Use formato yyyy-mm-dd.\n");
+            objectIoManager.showInfo("Fecha invalida. Use formato year-month-day.\n");
         }
     }
 
