@@ -1,6 +1,6 @@
 /* Autor : Alejandro Mendieta - Julian Andres Mesa
 Date : 31 - 10 - 2026
-Description : SIGOC - Presentador MVP
+Description : SIGOC - Presentador MVP.
  */
 
 import java.time.LocalDate;

@@ -1,6 +1,6 @@
 /* Autor : Alejandro Mendieta - Julian Andres Mesa
 Date : 31 - 10 - 2026
-Description : Proyecto Algortimos y programación I 
+Description : Proyecto Algortimos y programación I.
 */  
 
 import java.util.Scanner;
