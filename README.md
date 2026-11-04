@@ -1,4 +1,4 @@
-# README.md — SIGOC .....
+# README.md — SIGOC .
 
 ```markdown
 # SIGOC — Sistema de Gestión y Reporte de Operación Comercial de Conciertos
